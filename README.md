@@ -1,9 +1,8 @@
 oculus-rest
 ===========
 
-Supported SDK: 0.5.0.1-Beta
-
-Supported OS: Windows 7,8
+#### Supported SDK: 0.5.0.1-Beta
+#### Supported OS: Windows 7,8
 
 ===========
 
