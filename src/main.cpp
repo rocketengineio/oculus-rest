@@ -63,6 +63,9 @@ static int ahc_echo(void * cls, struct MHD_Connection * connection, const char *
 }
 
 int main(int argc, char **argv) {	
+	
+	printf("Starting Oculus-restful ...\n");
+	printf("Supported SDK: 0.5.0.1-beta\n\n");
 
 	ovr_Initialize();
     Hmd = ovrHmd_Create(0);
@@ -90,6 +93,9 @@ int main(int argc, char **argv) {
 		printf("Unable to start webserver.\n");
 		return 1;
 	}
+
+	printf("Oculus-restful started.\n");
+
 	while(true) {
 #ifdef _WIN32
 		Sleep(100);
