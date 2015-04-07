@@ -70,7 +70,7 @@ int main(int argc, char **argv) {
 	{
 		// If we didn't detect an Hmd, create a simulated one for debugging.
         printf("Using a dummy Hmd\n");
-		Hmd = ovrHmd_CreateDebug(ovrHmd_DK1);
+		Hmd = ovrHmd_CreateDebug(ovrHmd_DK2);
 		UsingDebugHmd = true;
 		if (!Hmd)
 		{   // Failed Hmd creation.
